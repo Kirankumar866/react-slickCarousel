@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+}
+
+.heading {
+  align-self: center;
+  margin-top: 20px; /* Add margin for spacing */
+  color: #05acff;
+}
+.slide-container {
+  width: 800px;
+  align-self: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    height: 500px; /* Adjust the height for smaller screens */
+  }
+}
